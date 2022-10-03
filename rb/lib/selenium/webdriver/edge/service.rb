@@ -24,6 +24,7 @@ module Selenium
     module Edge
       class Service < Selenium::WebDriver::Chrome::Service
         DEFAULT_PORT = 9515
+        BROWSER_NAME = 'edge'
         EXECUTABLE = 'msedgedriver'
         MISSING_TEXT = <<~ERROR
           Unable to find msedgedriver. Please download the server from
